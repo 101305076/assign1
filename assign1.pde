@@ -70,14 +70,14 @@ void draw() {
       
       //
       
-      int  a = machine.getFruitCount(0);
-      int  b = machine.getFruitCount(1);
-      int  c = machine.getFruitCount(2);
-      int  d = machine.getFruitCount(3);
-      int  e = machine.getFruitCount(4);
-      int  f = machine.getFruitCount(5);
+      int  m = mahine.getFruitCount(0);
+      int  n = machine.getFruitCount(1);
+      int  o = machine.getFruitCount(2);
+      int  p = machine.getFruitCount(3);
+      int  q = machine.getFruitCount(4);
+      int  r = machine.getFruitCount(5);
       
-      totalScore=500-50+a*a*60+b*b*10+c*c*20+d*d*30+e*e*40+f*f*50;
+      totalScore=500-50+m*m*60+n*n*10+o*o*20+p*p*30+q*q*40+r*r*50;
        
       
  
@@ -98,3 +98,8 @@ void mousePressed() {
     button = !button;
   }  
 }
+
+
+
+
+
